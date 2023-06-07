@@ -1,0 +1,35 @@
+<script setup>
+const matriz1 = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+const matriz2 = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [3, 6, 7]
+]
+console.log(matriz1[0])
+
+function compara() {
+  
+  if (matriz1.length == matriz2.length) {
+   
+    for(let a of matriz1[0]){
+      for(let b of matriz2[0]){ 
+        if(a === b){console.log('elemento igaul')}
+      }
+    }
+ 
+  }
+  else alert('As matrizes sao diferentes')
+}
+
+function
+</script>
+
+<template>
+  <div>
+    <button @click="compara()">claudio</button>
+  </div>
+</template>
