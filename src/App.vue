@@ -15,8 +15,8 @@ function compara() {
   
   if (matriz1.length == matriz2.length) {
    
-    for(let a of matriz1[0]){
-      for(let b of matriz2[0]){ 
+    for(let a of matriz1[i]){
+      for(let b of matriz2[i]){ 
         if(a === b){console.log('elemento igaul')}
       }
     }
@@ -25,7 +25,12 @@ function compara() {
   else alert('As matrizes sao diferentes')
 }
 
-function
+function passamatriz(){
+  let i = 0
+  for (i = 0; i < 2; i++) {
+    
+  }
+}
 </script>
 
 <template>
